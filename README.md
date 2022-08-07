@@ -19,4 +19,12 @@ Heouku_APP_NAME : ml-regression-project-123
 
 
 docker build -t <image_name>:<tagname> .
+
+docker images
+
+docker run -p 5000:5000 -e PORT=5000  <image id>
+
+docker ps
+
+docker stop <container_id>
  
