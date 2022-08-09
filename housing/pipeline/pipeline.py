@@ -9,9 +9,10 @@ import os,sys
 
 class Pipeline:
 
-    def __init__(self, config: Configuartion ) -> None:
+    def __init__(self, config: Configuartion=Configuartion() ) -> None:
         try:
-           pass
+           self.config=config
+           
         except Exception as e:
             raise HousingException(e, sys) from e
 
