@@ -33,6 +33,7 @@ from housing.util.util import read_yaml_file,save_object,save_numpy_array_data,l
 class FeatureGenerator(BaseEstimator, TransformerMixin):
 
     def __init__(self, add_bedrooms_per_room=True,
+                 
                  total_rooms_ix=3,
                  population_ix=5,
                  households_ix=6,
