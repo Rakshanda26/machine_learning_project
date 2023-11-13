@@ -14,7 +14,7 @@ git remote -v     to check remote url
 
 
 Heroku Email-id : rakshandamm123@gmail.com
-Heroku_API_KEY : c3611bf6-c343-4860-b130-8542283f3ca9
+Heroku_API_KEY : 
 Heouku_APP_NAME : ml-regression-project-123
 
 
